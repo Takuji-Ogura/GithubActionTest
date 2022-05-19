@@ -2,6 +2,13 @@ name: MSBuild
 
 on: push
 
+env:
+  App_Name: GithubActionTest
+  Solution_Directory: 
+  Solution_Path: GithubActionTest.sln
+  App_Project_Path: GithubActionTest/GithubActionTest.csproj
+  Test_Directory: UnitTest
+
 jobs:
   build:
     runs-on: windows-2019
