@@ -19,5 +19,5 @@ jobs:
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.0.2
 
-      - run: dotnet build -c Debug
-      - run: dotnet test -c Debug --no-build
+      - run: dotnet build
+      - run: dotnet test
