@@ -13,4 +13,4 @@ jobs:
         uses: microsoft/setup-msbuild@v1.0.2
 
       - run: dotnet build
-      - run: dotnet test "./GithubActionTest/UnitTest/UnitTest.csproj"
+      - run: dotnet test
