@@ -1,3 +1,5 @@
 /GithubActionTest/bin
 /GithubActionTest/obj
 /.vs
+/UnitTest/bin
+/UnitTest/obj

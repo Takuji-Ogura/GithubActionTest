@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace GithubActionTest
@@ -19,7 +13,12 @@ namespace GithubActionTest
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Debug.WriteLine(Sum(1, 2));
+        }
 
+        public int Sum(int a, int b)
+        {
+            return a + b;
         }
     }
 }
